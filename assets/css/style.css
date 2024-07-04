@@ -348,7 +348,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 815px;
+  max-height: 1015px;
 }
 
 .sidebar-info {
@@ -1444,7 +1444,18 @@ textarea.form-input::-webkit-resizer {
   }
 
   .sidebar.active {
-    max-height: 815px;
+    max-height: 1015px;
+  }
+
+  .contact-divar {
+    color: #ffe9ac !important;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    text-decoration: underline;
+  }
+
+  .contact-divar:hover {
+    color: #dfc067 !important;
   }
 
   .sidebar-info {
