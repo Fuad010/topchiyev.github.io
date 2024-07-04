@@ -16,7 +16,16 @@
     rgba(0, 0, 0, 1) 100%
   );
 }
+.contact-divar {
+  color: #ffe9ac !important;
+  transition: 0.2s;
+  transition-timing-function: linear;
+  text-decoration: underline;
+}
 
+.contact-divar:hover {
+  color: #dfc067 !important;
+}
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -1445,17 +1454,6 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar.active {
     max-height: 1015px;
-  }
-
-  .contact-divar {
-    color: #ffe9ac !important;
-    transition: 0.2s;
-    transition-timing-function: linear;
-    text-decoration: underline;
-  }
-
-  .contact-divar:hover {
-    color: #dfc067 !important;
   }
 
   .sidebar-info {
