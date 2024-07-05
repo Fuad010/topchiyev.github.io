@@ -731,6 +731,26 @@ main {
   z-index: 2;
 }
 
+.adasdasd i {
+}
+
+.adasdasd h4 {
+  transition: 0.2s;
+  transition-timing-function: linear;
+  color: #dfc067 !important;
+  text-decoration: underline #dfc067;
+}
+
+.adasdasd:hover i {
+  opacity: 0.7 !important;
+  filter: brightness(0) saturate(100%) invert(96%) sepia(82%) saturate(924%)
+    hue-rotate(321deg) brightness(93%) contrast(87%);
+}
+.adasdasd:hover h4 {
+  color: #a59052 !important;
+  text-decoration: underline #a59052 !important;
+}
+
 .modal-container.active .testimonials-modal {
   transform: scale(1);
   opacity: 1;
